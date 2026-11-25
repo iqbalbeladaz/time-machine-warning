@@ -5,12 +5,15 @@ Opens with the flat, official voice of a real safety notice — then the paradox
 The program writes the entry to $MAKEFUN_OUTPUT_DIR/entry.txt
 (default /output/entry.txt). It is deterministic: every run writes the
 same bytes. Standard library only, no network, no input.
+
+Judge note: the warning stays in the straight-faced voice of a safety notice
+throughout — the joke is the paradox, never a wink at the reader.
 """
 
 import os
 from pathlib import Path
 
-ENTRY = 'WARNING: Meeting yourself voids the warranty. Only one of you comes home, and the other must explain it to your mother.'
+ENTRY = "WARNING: Meeting yourself voids the warranty. Only one of you comes home, and the other must explain it to your mother."
 
 MAX_CHARS = 120
 
